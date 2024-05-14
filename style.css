@@ -1,0 +1,93 @@
+body{
+    background-color: #003785;
+    color: rgb(7, 1, 15);
+    font-family: "Playfair Display", serif;
+ }
+ .conteudo{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+ }
+ .titulo{
+    text-align: left;
+    width: 100%;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+ }
+ .titulo span{
+    color: rgb(0, 8, 6);
+ }
+ .botao{
+    font-family: "Playfair Display", serif;
+    background-color: #81c9fa;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid #080808;
+    border-left: 4px solid #080808;
+    border-right: 4px solid #000000;
+    border-top: none;
+  
+ }
+ .botoes{
+   display: block;
+  }
+ .botao.ativo {
+    background-color:#5b99fd;
+   border-bottom: solid 4px rgb(131, 238, 238); 
+ }
+ .botao:first-child {
+  border-radius: 40px 40px 0 0 ;
+ }
+ .abas{
+   background-color:#2b99ff;
+   padding: 40px;
+   text-align: center;
+   border-radius: 0 0 40px 40px;
+ }
+ .tempo{
+   color: black;
+   }
+   .texto-titulo{
+      font-size: 30px;
+   }
+   .textos.ativo{
+      display: block;
+   }
+   .textos{
+      display: none;
+      
+   }
+   .contador{
+    display: flex;
+    justify-content: center;
+   }
+   .contador-digito{
+    padding: 0 16px;
+   }
+   .contador-numero{
+    font-size: 80px;
+
+   }
+   
+ @media screen and (min-width: 798px)
+ {
+ .botoes{
+ display: flex;
+ }
+ .botao:first-child {
+   border-radius: 40px 0 0 0 ;
+  }
+  
+  .botao:last-child {
+   border-radius: 0 40px 0 0 ;
+  }
+ }
+ 
